@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.7
 
 ENV NEXUS_VERSION 3.6.0-02
 ENV SONATYPE_DIR=/opt/sonatype
