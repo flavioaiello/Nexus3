@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-ENV NEXUS_VERSION 3.6.0-02
+ENV NEXUS_VERSION 3.7.0-04
 ENV SONATYPE_DIR=/opt/sonatype
 ENV NEXUS_HOME=${SONATYPE_DIR}/nexus \
     NEXUS_DATA=/nexus-data \
