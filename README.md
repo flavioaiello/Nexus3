@@ -1,6 +1,6 @@
-[![Docker Build Status](https://img.shields.io/docker/build/flavioaiello/nexus3.svg?style=for-the-badge)](https://hub.docker.com/r/flavioaiello/nexus3/)
-[![Docker Stars](https://img.shields.io/docker/stars/flavioaiello/nexus3.svg?style=for-the-badge)](https://hub.docker.com/r/flavioaiello/nexus3/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/flavioaiello/nexus3.svg?style=for-the-badge)](https://hub.docker.com/r/flavioaiello/nexus3/)
+[![Docker Build Status](https://img.shields.io/docker/build/flavioaiello/nexus3.svg)](https://hub.docker.com/r/flavioaiello/nexus3/)
+[![Docker Stars](https://img.shields.io/docker/stars/flavioaiello/nexus3.svg)](https://hub.docker.com/r/flavioaiello/nexus3/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/flavioaiello/nexus3.svg)](https://hub.docker.com/r/flavioaiello/nexus3/)
 
 # Nexus3
 Ready to go API configurable and extensible general purpose repository.
