@@ -1,6 +1,8 @@
 [![Docker Build Status](https://img.shields.io/docker/build/flavioaiello/nexus3.svg)](https://hub.docker.com/r/flavioaiello/nexus3/)
 [![Docker Stars](https://img.shields.io/docker/stars/flavioaiello/nexus3.svg)](https://hub.docker.com/r/flavioaiello/nexus3/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/flavioaiello/nexus3.svg)](https://hub.docker.com/r/flavioaiello/nexus3/)
+[![Docker Automation](
+https://img.shields.io/docker/automated/flavioaiello/nexus3)](https://hub.docker.com/r/flavioaiello/nexus3/)
 
 # Nexus3
 Minimalistic Sonatype Nexus3 general purpose repository based on alpine linux.
