@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-ENV NEXUS_VERSION 3.9.0-01
+ENV NEXUS_VERSION 3.15.1-01
 ENV SONATYPE_DIR=/opt/sonatype
 ENV NEXUS_HOME=${SONATYPE_DIR}/nexus \
     NEXUS_DATA=/nexus-data \
@@ -9,7 +9,7 @@ ENV NEXUS_HOME=${SONATYPE_DIR}/nexus \
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk/jre
 
 # Packages
-RUN set -ex;\
+RUN set -e;\
     apk update;\
     apk upgrade;\
     apk add --no-cache su-exec ca-certificates openjdk8 curl tar;\
@@ -20,7 +20,7 @@ RUN set -ex;\
     chown -R nexus /home/nexus
 
 # Nexus
-RUN set -ex;\
+RUN set -e;\
     echo "Installing Nexus ${NEXUS_VERSION} ...";\
     mkdir -p /opt/sonatype/nexus /opt/sonatype/sonatype-work;\
     curl -sSL --retry 3 https://download.sonatype.com/nexus/3/nexus-${NEXUS_VERSION}-unix.tar.gz | tar -C ${NEXUS_HOME} -xvz --strip-components=1 nexus-${NEXUS_VERSION};\
